@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desolate</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="Engine.game.new()">
+    <section class="notif">
+        <div class="box">
+            <h2 class="ntit">Alert!</h2>
+            <h4 class="ntext">This game is still in beta, please report any bugs you find to support@imakegamez.com</h4>
+            <br><br><h6 class="dummy">Click anywhere to close</h6>
+        </div>
+    </section>
+    <section class="scenario">
+        <p class="text">1:03PM: You wake up, bloody, and check your phone that has been cracked so badly, it looks
+            like dry dirt. You've just been in a plane crash, yet you still feel the need to check your phone.</p>
+    </section>
+    <section class="progression">
+        <button class="choice1 from-right"></button>
+        <button class="proceed from-right">Okay</button>
+        <button class="choice2 from-right"></button>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/handler.js"></script>
+</body>
+
+</html>
